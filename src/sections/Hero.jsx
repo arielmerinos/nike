@@ -23,6 +23,7 @@ const Hero = () => {
         </h1>
         <p className="font-montserrat text-slate-gray py-8 text-lg leading-8 sm:max-w-sm">Dicover stylish Nike arrivals, quality comfort, and innovation for your active life</p>
         <Button label="Shop now!" iconURL={arrowRight}/>
+        
         <div className="flex justify-between items-start flex-wrap w-full  mt-20 gap-8 ">
           {statistics.map(({ value, label }) => (
             <div key={`${value}${label}`} className="flex flex-col justify-center items-center">
